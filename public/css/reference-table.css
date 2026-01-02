@@ -1,0 +1,16 @@
+/* Table hover/selection CSS for reference tables */
+.reference-table-container .row-checkbox { display: none !important; }
+.reference-table-container tr:hover .row-checkbox { display: inline-block !important; }
+.reference-table-container tr.selected .row-checkbox { display: inline-block !important; }
+
+.reference-table-container .select-all { display: none !important; }
+.reference-table-container:hover .select-all { display: inline-block !important; }
+.reference-table-container.has-selection .select-all { display: inline-block !important; }
+
+.reference-table-container .row-number { display: inline-block; }
+.reference-table-container tr:hover .row-number { display: none; }
+.reference-table-container tr.selected .row-number { display: none; }
+
+.reference-table-container .header-number { display: inline-block; }
+.reference-table-container:hover .header-number { display: none; }
+.reference-table-container.has-selection .header-number { display: none; }

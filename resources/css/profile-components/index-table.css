@@ -1,0 +1,20 @@
+/* Styles for profile subsection index table (copied from inline styling intents)
+   Use alongside Tailwind utilities; keeps visual parity with blades.
+*/
+.profile-section { margin-top: 1rem; }
+.profile-section-header { display: flex; align-items: center; justify-content: space-between; gap: 0.75rem; }
+.profile-card-title { font-weight: 600; font-size: 1rem; color: #1f2937; }
+.reference-table-container { border-radius: .5rem; box-shadow: 0 1px 2px rgba(0,0,0,0.04); overflow: visible; }
+.header-number { color: #9CA3AF; font-size: .875rem; }
+.row-number { color: #9CA3AF; font-size: .875rem; width: 1.5rem; text-align: center; }
+.row-checkbox { width: 1rem; height: 1rem; }
+.select-all { width: 1rem; height: 1rem; }
+.reference-table-container.has-selection { box-shadow: 0 0 0 3px rgba(99,102,241,0.06); }
+
+/* Small visual for selected rows */
+tr.selected { background-color: rgba(243,244,246, 1); }
+@media (prefers-color-scheme: dark) {
+    .profile-card-title { color: #f3f4f6; }
+    .reference-table-container { box-shadow: none; }
+    tr.selected { background-color: rgba(63, 63, 70, 1); }
+}

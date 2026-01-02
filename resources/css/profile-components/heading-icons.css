@@ -1,0 +1,6 @@
+/* Heading and icon sizing for subsection headers */
+.profile-section-header flux\:icon, .profile-section-header svg { width: 1.25rem; height: 1.25rem; color: #374151; }
+.profile-section-header .profile-card-title { font-size: 1rem; margin-left: .25rem; }
+@media (prefers-color-scheme: dark) {
+    .profile-section-header flux\:icon, .profile-section-header svg { color: #e5e7eb; }
+}

@@ -1,0 +1,1 @@
+@include('livewire.profile.personal.personal-records')
